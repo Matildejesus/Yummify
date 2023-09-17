@@ -1,0 +1,26 @@
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover {
+  color: white;
+}
+
+#navbarElement {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 280px;
+  height: 100%;
+}
+
+.font {
+  font-family: "Roboto Serif", serif;
+  background-color: #243132;
+}
+
+.top {
+  margin-top: 40%;
+}

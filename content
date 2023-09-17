@@ -1,0 +1,85 @@
+{ recipes: [ { vegetarian: false, vegan: false, glutenFree: false, dairyFree:
+false, veryHealthy: false, cheap: false, veryPopular: false, sustainable: false,
+lowFodmap: false, weightWatcherSmartPoints: 81, gaps: 'no', preparationMinutes:
+-1, cookingMinutes: -1, aggregateLikes: 3, healthScore: 38, creditsText:
+'Foodista.com – The Cooking Encyclopedia Everyone Can Edit', license: 'CC BY
+3.0', sourceName: 'Foodista', pricePerServing: 1348.09, extendedIngredients:
+[Array], id: 640633, title: 'Creamy Curry Cheese and Macaroni With Langostino
+Tails and Black Truffle Oil', readyInMinutes: 45, servings: 1, sourceUrl:
+'https://www.foodista.com/recipe/SDJKZM8G/creamy-curry-cheese-and-macaroni-with-langostino-tails-and-black-truffle-oil',
+image: 'https://spoonacular.com/recipeImages/640633-556x370.jpg', imageType:
+'jpg', summary: 'Creamy Curry Cheese and Macaroni With Langostino Tails and
+Black Truffle Oil is an Indian main course. Watching your figure? This
+pescatarian recipe has <b>2436 calories</b>, <b>138g of protein</b>, and
+<b>143g of fat</b> per serving. For <b>$13.48 per serving</b>, this recipe
+<b>covers 47%</b> of your daily requirements of vitamins and minerals. This
+recipe serves 1. 3 people found this recipe to be scrumptious and satisfying.
+Head to the store and pick up flour, an evoo, cheddar cheese, and a few other
+things to make it today. It is brought to you by Foodista. From preparation to
+the plate, this recipe takes around <b>45 minutes</b>. Taking all factors into
+account, this recipe <b>earns a spoonacular score of 70%</b>, which is pretty
+good. Similar recipes are
+<a
+  href="https://spoonacular.com/recipes/bacon-and-truffle-oil-macaroni-and-cheese-527146"
+  >Bacon and Truffle Oil Macaroni and Cheese</a
+>,
+<a
+  href="https://spoonacular.com/recipes/new-york-strip-steak-with-tri-berry-relish-crispy-onion-strings-and-baked-macaroni-and-cheese-with-prosciutto-and-truffle-oil-294268"
+  >New York Strip Steak with Tri-Berry Relish, Crispy Onion Strings and Baked
+  Macaroni and Cheese with Prosciutto and Truffle Oil</a
+>, and
+<a
+  href="https://spoonacular.com/recipes/vegan-creamy-pasta-with-butternut-and-truffle-oil-712477"
+  >Vegan creamy pasta with butternut and truffle oil</a
+>.', cuisines: [Array], dishTypes: [Array], diets: [Array], occasions: [],
+instructions: 'Trader Joes came through: their 12 oz bag of frozen langostino
+tails are an excellent alternative to lobster, but more indulgent than shrimp.
+Id also use crawfish tails; or Maine shrimp, since theyre so tiny and sweet, and
+so unlike their bigger, brinier, ubiquitous tiger cousins. See how sweet and
+pink and plump they are? I defrost them, rinse them, then drain them over a
+screen set over a bowl, to separate all the liquids from the meat.\n' + 'Since I
+only have one suitable pan (my Ikeawok), I start with my breadcrumbs, which I
+can set aside for use later. I melt a tablespoon of butter of medium high heat
+until just turning brown\n' + 'I throw my panko breadcrumbs, about 1/2 a cup,
+into my hot butter, and toss in my wok\n' + 'Until all the crumbs are uniformly
+toasted. I remove them from the pan, setting them aside on some parchment paper,
+where I flavor them with salt and pepper, until I need them later.\n' + 'Along
+with fontina cheese, I have a nice mild Wisconsin cheddar. I shred about 4
+packed ounces of each onto a plate.\n' + 'OK, I shred about 6 oz of each;
+Clayton is on the prowl, and he pinches when (he thinks) Im not looking.\n' +
+'Along with grated nutmeg, simple salt and pepper, and a dash of chili curry
+powder, these are the spice components of my sauce. To me, the best macaroni and
+cheeses are the simple ones: firm pasta, flavorful cheesy sauce, and a crisp
+crust. The addition of too many flavors and veggies just mucks up perfection.\n'
++ 'But the addition of 1/2 a white onion, nicely minced, is a must shallot would
+do nicely, too, or garlic. In this case, we went simple\n' + 'And sweated and
+softened the minced onion (about 1/2 cup) in a tablespoon of sizzling (but not
+browned) melted butter.\n' + 'After a moment, I add a tablespoon of flour to the
+sizzling butter, and stir well to make a roux.\n' + 'Finally, I add my cream,
+and bring this to a simmer to thicken. See how the butter-sauteed onions float
+to the top? They will be tender little bursts of flavor on the tongue later in
+the meal. Stir well, and thicken over medium heat. My pasta is cooking on the
+back burner, and will be ready in a few minutes.\n' + 'Meanwhile, I throw my
+cheese into the sauce, and\n' + 'I briskly whisk over medium heat to melt and
+blend.\n' + 'I add my just slightly undercooked pasta to my cheese sauce, and
+blend well. I then add my drained langostino tails, mixing well, and simmering
+until heated through.\n' + 'Finally, I spoon my sauce, seafood, and noodles into
+buttered 8oz ramekins. I sprinkle a healthy portion of my breadcrumbs over the
+top of each dish, then place in a 350 oven to bake through for 15-20 minutes.\n'
++ 'For the last five minutes, I put a cookie sheet, lined with parchment paper,
+and mounded with fresh shredded parmesan cheese, into the oven to make some
+cheesy croutons for a simple, snappy, arugula, onion, salted kumato tomato,
+EVOO, and white balsamic vinegar salad to serve on the side.\n' + 'Right before
+service, I dribble some black truffle oil, a delicious gift given to my by my
+close friend and superpartner, Tom, over the top of my bubbling baked crispy
+topped macaroni and cheese. My salad is fresh and light and sharp, topped with a
+wafery salty savory parmesan cracker, the perfect compliment to my rich,
+fragrant, slightly hot and wonderfully spiced creamy macaroni and cheese,
+studded as it is with sweet, briny mouthfuls of tender langostino tails, and
+topped with just the right buttered toast texture. Clayton and I dig in with
+abandon: our noses fill with the umame aroma of melting cheese, our mouths with
+the gooey heat of pasta cream, and our brains fire synapses hard-wired to
+supreme excitement and titilla', analyzedInstructions: [Array], originalId:
+null, spoonacularSourceUrl:
+'https://spoonacular.com/creamy-curry-cheese-and-macaroni-with-langostino-tails-and-black-truffle-oil-640633'
+} ] }

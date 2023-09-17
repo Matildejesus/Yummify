@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto+Serif:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+/* font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Serif', serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #235054;
+}
+
+.container {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  max-width: 100vw;
+}
+
+.title {
+  margin-top: 3%;
+  font-family: "Roboto Serif", serif;
+  color: #f3ede4;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+h1 {
+  text-shadow: 2px 2px 3px purple;
+  margin: 5% 0;
+  font-size: 6vw;
+}
+
+p {
+  font-size: 2vw;
+}
+
+.logo {
+  margin: 0 auto;
+  transform: rotate(29deg);
+}
+
+.dropdown {
+  color: #235054;
+  margin-top: 9vw;
+  margin-left: 7vw;
+  margin-right: 10vw;
+}
+
+.item-dropdown {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+}
+
+.dropdown-title {
+  margin-top: 2%;
+  font-family: "Roboto Serif", serif;
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+
+.submitBtn {
+  text-decoration: none;
+}
+
+.content {
+  height: 450px;
+  background-image: url("/images/homepage-background.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content-full {
+  background-color: #d5cdc2;
+}
+
+.buttons {
+  margin-top: 22%;
+  padding: 0 45% 0 15%;
+}
+.btn-options {
+  margin-bottom: 15%;
+  font-family: "Roboto Serif", serif;
+  color: #235054;
+  border: 3px solid #235054;
+  font-weight: 600;
+  font-size: 1.75vw;
+}
+
+.btn:hover {
+  color: #235054;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 1%;
+  font-size: 1.75vw;
+  font-family: "Roboto Serif", serif;
+  color: #f3ede4;
+}
+
+.footer-p {
+  text-align: center;
+  padding-left: 17%;
+  font-size: 1.3vw;
+  font-family: "Roboto Serif", serif;
+  font-weight: 400;
+  color: #f3ede4;
+}
+/* 
+.carousel {
+  border: 1px solid grey;
+}
+
+.carousel-inner {
+  width: 50%;
+  margin-left: 25%;
+}
+
+h2 {
+  color: black;
+  background-color: white;
+} */
+
+@media (max-width: 769px) {
+}
