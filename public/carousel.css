@@ -20,7 +20,33 @@ body {
 }
 
 h1 {
+  color: #d5cdc2;
   text-shadow: 2px 2px 3px purple;
   margin: 5% 0;
   font-size: 5vw;
 }
+
+.carousel {
+  width: 50%;
+  height: 80%;
+}
+
+.the-carousel {
+  background-color: #d5cdc2;
+}
+/* 
+.carousel-control-prev {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+.carousel-control-next {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+} */

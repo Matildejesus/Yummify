@@ -1,9 +1,11 @@
-a {
+a,
+.logo {
   text-decoration: none;
   color: grey;
 }
 
-a:hover {
+a:hover,
+.logo:hover {
   color: white;
 }
 
@@ -19,8 +21,16 @@ a:hover {
 .font {
   font-family: "Roboto Serif", serif;
   background-color: #243132;
+  padding-top: 7rem !important;
+  font-size: 1.25rem;
 }
 
-.top {
-  margin-top: 40%;
+.nav-link {
+  color: #f3ede4;
+}
+
+#closebtn {
+  position: absolute;
+  top: 10px; /* Adjust the top value as needed */
+  right: 10px; /* Adjust the right value as needed */
 }

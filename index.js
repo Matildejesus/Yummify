@@ -1,14 +1,14 @@
 import express from "express";
 import axios from "axios";
 import bodyParser from "body-parser";
-import $ from "jquery";
 import getPort from "get-port";
+import "dotenv/config";
 
 const app = express();
-const apiKey = "a059be4aa3dc4bad9dc2e099677d0a00";
+const apiKey = process.env.API_KEY;
 const apiUrl = "https://api.spoonacular.com/recipes";
-app.set("view engine", "ejs");
 
+app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: false }));
 
@@ -23,6 +23,7 @@ app.get("/faq", (req, res) => {
 app.post("/find-recipe", async (req, res) => {
   let selectedDiet = req.body.selectedDiet.toLowerCase();
   let selectedIntolerance = req.body.selectedIntolerance.toLowerCase();
+
   console.log(selectedDiet, selectedIntolerance);
   const numberOfRecipes = 3;
   let result;
@@ -62,6 +63,7 @@ app.post("/find-recipe", async (req, res) => {
 app.post("/recipe", async (req, res) => {
   let selectedDiet = req.body.selectedDiet.toLowerCase();
   let selectedIntolerance = req.body.selectedIntolerance.toLowerCase();
+
   console.log(selectedDiet, selectedIntolerance);
   const numberOfRecipes = 7;
   let result;
@@ -88,7 +90,6 @@ app.post("/recipe", async (req, res) => {
       );
     }
     const recipes = result.data.recipes;
-    console.log(recipes);
     const filteredRecipes = [];
     let count = 0;
     recipes.forEach((recipe) => {
@@ -100,8 +101,6 @@ app.post("/recipe", async (req, res) => {
         }
       }
     });
-    console.log("Recipe: " + filteredRecipes[0].data);
-    console.log("Succceeeessss!!!!");
     res.render("recipe.ejs", { content: filteredRecipes });
     // res.json(result.data);
   } catch (error) {
