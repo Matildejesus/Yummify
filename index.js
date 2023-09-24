@@ -1,7 +1,6 @@
 import express from "express";
 import axios from "axios";
 import bodyParser from "body-parser";
-import getPort from "get-port";
 import "dotenv/config";
 import cookie from "cookie-parser";
 
@@ -126,11 +125,7 @@ app.post("/recipe", async (req, res) => {
   }
 });
 
-async function startServer() {
-  const port = await getPort({ port: 3000 });
-
-  app.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
-  });
-}
-startServer();
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
+});
