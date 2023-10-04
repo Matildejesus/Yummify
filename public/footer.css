@@ -1,0 +1,16 @@
+.footer {
+  text-align: center;
+  margin-top: 1%;
+  font-size: 1.75vw;
+  font-family: "Roboto Serif", serif;
+  color: #f3ede4;
+}
+
+.footer-p {
+  text-align: center;
+  padding-left: 17%;
+  font-size: 1.3vw;
+  font-family: "Roboto Serif", serif;
+  font-weight: 400;
+  color: #f3ede4;
+}
