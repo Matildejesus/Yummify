@@ -119,7 +119,16 @@
             <div
               class="carousel-caption text-start <%= isFirstItem ? 'active' : '' %>"
             >
-              <h2 class="recipe-title"><%=recipe.title%></h2>
+              <form action="/recipe-selected" method="POST">
+                <input
+                  type="hidden"
+                  name="recipe"
+                  value="<%= JSON.stringify(recipe) %>"
+                />
+                <button type="submit">
+                  <h2 class="recipe-title"><%=recipe.title%></h2>
+                </button>
+              </form>
             </div>
           </div>
           <% isFirstItem = false; %> <% }); %> <% } %>

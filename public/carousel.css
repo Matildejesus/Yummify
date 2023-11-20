@@ -55,12 +55,13 @@ h1 {
 
 .recipe-title {
   font-family: "Roboto Serif", serif;
-  color: #f3ede4;
+  color: #fff;
   border-radius: 30px;
   -webkit-text-stroke: 1px #235054;
   padding: 3%;
   font-size: 3vw;
   background-color: #f3ede4;
+  font-weight: 700;
 }
 
 .the-carousel {
