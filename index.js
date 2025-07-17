@@ -6,21 +6,15 @@ import mongoose, { mongo } from "mongoose";
 
 const app = express();
 const apiKey = process.env.API_KEY;
-const apiUrl = "https://api.spoonacular.com/recipes";
-const database = process.env.DATABASE.replace(
-  "<PASSWORD>",
-  process.env.DATABASE_PASSWORD
-);
+const apiUrl = process.env.API_URL;
+const database = process.env.DATABASE;
 
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: false }));
 
 mongoose
-  .connect(database, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect(database)
   .then(() => {
     console.log("database connection successful!");
   });
