@@ -1,5 +1,5 @@
 import express from "express";
-import axios from "axios";
+import axios from 'axios/dist/node/axios.cjs';
 import bodyParser from "body-parser";
 import "dotenv/config";
 import mongoose, { mongo } from "mongoose";
